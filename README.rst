@@ -25,6 +25,7 @@ Uploading Code
 **************
 
 Currently `nodemcu-uploader <https://github.com/kmpm/nodemcu-uploader>`_ is being used to upload code. 
+It can be installed via ``pip install nodemcu-uploader``
 
 Getting Started
 ***************
