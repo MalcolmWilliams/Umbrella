@@ -21,6 +21,11 @@ Software
 
 The program will be written in eLua (NodeMCU) instead of Arduino because the `documentation <http://nodemcu.readthedocs.io/en/master/>`_ appears to be more concise. 
 
+Uploading Code
+**************
+
+Currently `nodemcu-uploader <https://github.com/kmpm/nodemcu-uploader>`_ is being used to upload code. 
+
 Getting Started
 ***************
 
