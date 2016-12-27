@@ -5,7 +5,6 @@ Umbrella
 ESP8266 based smart umbrella for art show
 
 
-
 Hardware
 ========
 
@@ -31,4 +30,10 @@ The following commands can be used to upload the firmware.
 
 Then code can be ran with the following `guide <https://learn.adafruit.com/micropython-basics-load-files-and-run-code/install-ampy>`_
 
-or with the shortcut script ``./run.sh``
+There are some helpful shortcut scripts:
+
+To test the test.py file:
+``./run.sh``
+
+To upload the test.py file and have it run at boot:
+``./upload.sh``
