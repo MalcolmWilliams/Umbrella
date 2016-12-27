@@ -29,6 +29,6 @@ The following commands can be used to upload the firmware.
     esptool.py --port /path/to/ESP8266 erase_flash
     esptool.py --port /path/to/ESP8266 --baud 460800 write_flash --flash_size=detect 0 firmware.bin
 
-Then code can be ran with the following `guide <https://learn.adafruit.com/micropython-basics-load-files-and-run-code/install-ampy >`_
+Then code can be ran with the following `guide <https://learn.adafruit.com/micropython-basics-load-files-and-run-code/install-ampy>`_
 
 or with the shortcut script ``./run.sh``
