@@ -1,0 +1,10 @@
+Change Component Designator: OldDesignator=R4 NewDesignator=R10
+Change Component Designator: OldDesignator=R5 NewDesignator=R9
+Change Component Designator: OldDesignator=R9 NewDesignator=R4
+Change Component Designator: OldDesignator=R10 NewDesignator=R5
+Added Pin To Net: NetName=NetQ3_3 Pin=R4-1
+Added Pin To Net: NetName=NetD5_K Pin=R4-2
+Added Pin To Net: NetName=LED_DAT Pin=R5-1
+Added Pin To Net: NetName=NetQ3_1 Pin=R5-2
+Added Member To Class: ClassName=Adafruit ESP8266 Feather Member=Component R9 Res3
+Added Member To Class: ClassName=Adafruit ESP8266 Feather Member=Component R10 Res3

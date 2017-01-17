@@ -1,0 +1,64 @@
+Added Component: Designator=C1(0805)
+Added Component: Designator=C2(0603)
+Added Component: Designator=C3(0805)
+Added Component: Designator=C4(0603)
+Added Component: Designator=C6(0805)
+Added Component: Designator=C7(0603)
+Added Component: Designator=C8(0805)
+Added Component: Designator=D1(LED-0603)
+Added Component: Designator=D3(LED-0603)
+Added Component: Designator=JP1(SMT-JUMPER_2_NC_TRACE_SILK)
+Added Component: Designator=R3(J1-0603)
+Added Component: Designator=R10(J1-0603)
+Added Component: Designator=R12(J1-0603)
+Added Component: Designator=R13(J1-0603)
+Added Component: Designator=R14(J1-0603)
+Added Pin To Net: NetName=VBAT Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=VBAT Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=VBAT Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C3-2
+Added Pin To Net: NetName=VBAT Pin=C4-1
+Added Pin To Net: NetName=GND Pin=C4-2
+Added Pin To Net: NetName=VBUS Pin=C6-1
+Added Pin To Net: NetName=GND Pin=C6-2
+Added Pin To Net: NetName=3.3V Pin=C7-1
+Added Pin To Net: NetName=GND Pin=C7-2
+Added Pin To Net: NetName=3.3V Pin=C8-1
+Added Pin To Net: NetName=GND Pin=C8-2
+Added Pin To Net: NetName=VBUS Pin=D1-A
+Added Pin To Net: NetName=3.3V Pin=D3-A
+Added Pin To Net: NetName=NetD3_C Pin=D3-C
+Added Pin To Net: NetName=VBAT Pin=JP1-2
+Added Pin To Net: NetName=RESET Pin=R3-1
+Added Pin To Net: NetName=3.3V Pin=R3-2
+Added Pin To Net: NetName=GPIO0 Pin=R10-1
+Added Pin To Net: NetName=NetD3_C Pin=R10-2
+Added Pin To Net: NetName=LED_DAT Pin=R12-1
+Added Pin To Net: NetName=NetD5_4-DIN Pin=R12-2
+Added Pin To Net: NetName=LED_DAT Pin=R13-1
+Added Pin To Net: NetName=NetQ3_1 Pin=R13-2
+Added Pin To Net: NetName=NetQ3_3 Pin=R14-1
+Added Pin To Net: NetName=NetD8_K Pin=R14-2
+Added Pin To Net: NetName=NetD1_C Pin=D1-C
+Added Pin To Net: NetName=NetD1_C Pin=R2-1
+Added Net: Name=NetD1_C
+Added Pin To Net: NetName=NetJP1_1 Pin=JP1-1
+Added Pin To Net: NetName=NetJP1_1 Pin=U3-3
+Added Net: Name=NetJP1_1
+Added Member To Class: ClassName=Adafruit ESP8266 Feather Member=Component C1 10µF 
+Added Member To Class: ClassName=Adafruit ESP8266 Feather Member=Component C2 1µF
+Added Member To Class: ClassName=Adafruit ESP8266 Feather Member=Component C3 10µF 
+Added Member To Class: ClassName=Adafruit ESP8266 Feather Member=Component C4 1µF
+Added Member To Class: ClassName=Adafruit ESP8266 Feather Member=Component C6 10µF 
+Added Member To Class: ClassName=Adafruit ESP8266 Feather Member=Component C7 1µF
+Added Member To Class: ClassName=Adafruit ESP8266 Feather Member=Component C8 10µF 
+Added Member To Class: ClassName=Adafruit ESP8266 Feather Member=Component D1 Orange
+Added Member To Class: ClassName=Adafruit ESP8266 Feather Member=Component D3 Red
+Added Member To Class: ClassName=Adafruit ESP8266 Feather Member=Component JP1 NC
+Added Member To Class: ClassName=Adafruit ESP8266 Feather Member=Component R3 Res3
+Added Member To Class: ClassName=Adafruit ESP8266 Feather Member=Component R10 Res3
+Added Member To Class: ClassName=Adafruit ESP8266 Feather Member=Component R12 Res3
+Added Member To Class: ClassName=Adafruit ESP8266 Feather Member=Component R13 Res3
+Added Member To Class: ClassName=Adafruit ESP8266 Feather Member=Component R14 Res3

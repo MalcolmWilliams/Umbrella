@@ -1,0 +1,49 @@
+Removed Member From Class: ClassName=Adafruit ESP8266 Feather Member=U$34
+Removed Member From Class: ClassName=Adafruit ESP8266 Feather Member=U$35
+Change Component Designator: OldDesignator=P? NewDesignator=P1
+Change Component Description : Designator=U2 Old Description=SOT23-5 Fixed Voltage Regulators      Part	Current Out	V Out	V In	V Dropout	?JA (°C/W)	TJ (°C)	Digikey Part No.	     ADP121	  150mA	  3.3V	  3.4-5.5V	  0.09V @ 150mA	  --	  --	  ADP121-AUJZ33R7CT-ND	     ADP121	  150mA	  3.0V	  3.1-5.5V	  0.09V @ 150mA	  --	  --	  ADP121-AUJZ30R7CT-ND	     ADP122	  300mA	  3.3V	  3.4-5.5V	  0.085V @ 300mA	  --	  --	  ADP122AUJZ-3.3-R7CT-ND	     ADP1712	  300mA	  3.3V	  3.5-5.5V	  0.17V @ 300mA	  --	  --	  ADP1712AUJZ-3.3-R7TR-ND	     AP7311 (Low Cost)	  150mA	  3.3V	  3.5-6V	  0.15V @ 150mA	  --	  --	  AP7311-33WG-7DICT-ND	     LD39015M18R	  150mA	  1.8V	  1.9V-5.5V	  0.08V @ 100mA	  --	  --	  497-6977-1-ND	     LP2985A-33DBVR	  150mA	  3.3V	  3.3-16V	  0.28V @ 150mA	  206	  150	  296-18479-1-ND	     MCP1824T-3302E/OT	  300mA	  3.3V	  3.5V-6V	  0.2V @ 300mA	  --	  --	  MCP1824T-3302E/OTCT-ND	     MIC5205-2.5YM5 TR	  150mA	  2.5V	  2.7-16V	  0.165V @ 150mA	  --	  --	  576-1257-2-ND	     MIC5205-3.0YM5 TR	  150mA	  3.0V	  3.2V-16V	  0.165V @ 150mA	  --	  --	  576-1258-2-ND	     MIC5205-3.3YM5 TR	  150mA	  3.3V	  3.5V-16V	  0.165V @ 150mA	  --	  --	  576-1259-2-ND	     TPS780330220	  150mA	  3.3V+2.2V	  3.6-5.5V	  250mV Max	  --	  --	  296-23332-1-ND	     TDA3663/N1,135	  100mA	  3.3V	  3.5-45V	  0.18V @ 50mA	  --	  --	  568-5343-1-ND	     	  	  	  	  	  	  	  	     	  	  	  	  	  	  	  	   Max operating temp can be calculated using ?JA, TJ (max junction temperature), and power in watts.  Set the "Maximum Ambient Temperature" until it reaches TJ ("Max Junction Temperature"), which is the absolute limit for safe use of the regulator: Heat Sink Temperature Calculator   For example, With 12V source into a 3.3V LP2985 and a 30mA load, we are dissipating (12V-3.3V) * 0.03A = 0.261W.  With a ?JA of 206 °C/W, a TJ of 150°C, and 261mW we can safely use the chip without a heat sink up to 75°C (=147.1°C Junction Temperature). New Description=SOT23-5 Fixed Voltage Regulators      Part	Current Out	V Out	V In	V Dropout	?JA (°C/W)	TJ (°C)	Digikey Part No.	     ADP121	  150mA	  3.3V	  3.4-5.5V	  0.09V @ 150mA	  --	  --	  ADP121-AUJZ33R7CT-ND	     ADP121	  150mA	  3.0V	  3.1-5.5V	  0.09V @ 150mA	  --	  --	  ADP121-AUJZ30R7CT-ND	     ADP122	  300mA	  3.3V	  3.4-5.5V	  0.085V @ 300mA	  --	  --	  ADP122AUJZ-3.3-R7CT-ND	     ADP1712	  300mA	  3.3V	  3.5-5.5V	  0.17V @ 300mA	  --	  --	  ADP1712AUJZ-3.3-R7TR-ND	     AP7311 (Low Cost)	  150mA	  3.3V	  3.5-6V	  0.15V @ 150mA	  --	  --	  AP7311-33WG-7DICT-ND	     LD39015M18R	  150mA	  1.8V	  1.9V-5.5V	  0.08V @ 100mA	  --	  --	  497-6977-1-ND	     LP2985A-33DBVR	  150mA	  3.3V	  3.3-16V	  0.28V @ 150mA	  206	  150	  296-18479-1-ND	     MCP1824T-3302E/OT	  300mA	  3.3V	  3.5V-6V	  0.2V @ 300mA	  --	  --	  MCP1824T-3302E/OTCT-ND	     MIC5205-2.5YM5 TR	  150mA	  2.5V	  2.7-16V	  0.165V @ 150mA	  --	  --	  576-1257-2-ND	     MIC5205-3.0YM5 TR	  150mA	  3.0V	  3.2V-16V	  0.165V @ 150mA	  --	  --	  576-1258-2-ND	     MIC5205-3.3YM5 TR	  150mA	  3.3V	  3.5V-16V	  0.165V @ 150mA	  --	  --	  576-1259-2-ND	     TPS780330220	  150mA	  3.3V+2.2V	  3.6-5.5V	  250mV Max	  --	  --	  296-23332-1-ND	     TDA3663/N1,135	  100mA	  3.3V	  3.5-45V	  0.18V @ 50mA	  --	  --	  568-5343-1-ND	     	  	  	  	  	  	  	  	     	  	  	  	  	  	  	  	   Max operating temp can be calculated using ?JA, TJ (max junction temperature), and power in watts.  Set the "Maximum Ambient Temperature" until it reaches TJ ("Max Junction Temperature"), which is the absolute limit for safe use of the regulator: Heat Sink Temperature Calculator   For example, With 12V source into a 3.3V LP2985 and a 30mA load, we are dissipating (12V-3.3V) * 0.03A = 0.261W.  With a ?JA of 206 °C/W, a TJ of 150°C, and 261mW we can safely use the chip without a heat sink up to 75°C (=147.1°C Junction Temperature).
+Added Component: Designator=R1(J1-0603)
+Added Component: Designator=R2(J1-0603)
+Added Component: Designator=R4(J1-0603)
+Added Component: Designator=R5(J1-0603)
+Added Component: Designator=R6(J1-0603)
+Added Component: Designator=R7(J1-0603)
+Added Component: Designator=R8(J1-0603)
+Added Component: Designator=R9(J1-0603)
+Added Pin To Net: NetName=3.3V Pin=R1-2
+Added Pin To Net: NetName=NetCHG_C Pin=R2-1
+Added Pin To Net: NetName=NetR2_2 Pin=R2-2
+Added Pin To Net: NetName=DTR Pin=R4-1
+Added Pin To Net: NetName=NetQ1_1 Pin=R4-2
+Added Pin To Net: NetName=RTS Pin=R5-1
+Added Pin To Net: NetName=NetQ2_1 Pin=R5-2
+Added Pin To Net: NetName=GND Pin=R6-1
+Added Pin To Net: NetName=VBUS Pin=R7-2
+Added Pin To Net: NetName=NetR8_1 Pin=R8-1
+Added Pin To Net: NetName=GND Pin=R8-2
+Added Pin To Net: NetName=3.3V Pin=R9-2
+Added Net: Name=ADC
+Added Pin To Net: NetName=CH_PD Pin=R1-1
+Added Net: Name=CH_PD
+Added Pin To Net: NetName=GPIO2 Pin=R9-1
+Added Net: Name=GPIO2
+Added Net: Name=GPIO4/SDA
+Added Net: Name=GPIO5/SCL
+Added Net: Name=GPIO12/MISO
+Added Net: Name=GPIO13/MOSI
+Added Net: Name=GPIO14/SCK
+Added Pin To Net: NetName=GPIO15 Pin=R6-2
+Added Net: Name=GPIO15
+Added Net: Name=GPIO16
+Added Net: Name=LED_DAT
+Added Pin To Net: NetName=NetR7_1 Pin=R7-1
+Added Pin To Net: NetName=NetR7_1 Pin=U2-3
+Added Net: Name=NetR7_1
+Added Member To Class: ClassName=Adafruit ESP8266 Feather Member=Component R1 Res3
+Added Member To Class: ClassName=Adafruit ESP8266 Feather Member=Component R2 Res3
+Added Member To Class: ClassName=Adafruit ESP8266 Feather Member=Component R4 Res3
+Added Member To Class: ClassName=Adafruit ESP8266 Feather Member=Component R5 Res3
+Added Member To Class: ClassName=Adafruit ESP8266 Feather Member=Component R6 Res3
+Added Member To Class: ClassName=Adafruit ESP8266 Feather Member=Component R7 Res3
+Added Member To Class: ClassName=Adafruit ESP8266 Feather Member=Component R8 Res3
+Added Member To Class: ClassName=Adafruit ESP8266 Feather Member=Component R9 Res3

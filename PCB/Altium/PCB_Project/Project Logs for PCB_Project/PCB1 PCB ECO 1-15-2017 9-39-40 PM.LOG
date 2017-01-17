@@ -1,0 +1,11 @@
+Added Component: Designator=D8(LED-0603)
+Added Component: Designator=R14(J1-0603)
+Added Pin To Net: NetName=3.3V Pin=D8-+
+Added Net: Name=3.3V
+Added Pin To Net: NetName=GPIO0 Pin=R14-1
+Added Net: Name=GPIO0
+Added Pin To Net: NetName=NetD8_- Pin=D8--
+Added Pin To Net: NetName=NetD8_- Pin=R14-2
+Added Net: Name=NetD8_-
+Added Member To Class: ClassName=Sheet1 Member=Component D8 Red
+Added Member To Class: ClassName=Sheet1 Member=Component R14 Res3

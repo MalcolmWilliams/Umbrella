@@ -1,0 +1,31 @@
+Change Component DesignItemId : Designator=U2 Old DesignItemId=VREG_SOT23-5 New DesignItemId=V_REG_SPX3819-SOT23-5
+Change Component Description : Designator=U2 Old Description=SOT23-5 Fixed Voltage Regulators      Part	Current Out	V Out	V In	V Dropout	?JA (°C/W)	TJ (°C)	Digikey Part No.	     ADP121	  150mA	  3.3V	  3.4-5.5V	  0.09V @ 150mA	  --	  --	  ADP121-AUJZ33R7CT-ND	     ADP121	  150mA	  3.0V	  3.1-5.5V	  0.09V @ 150mA	  --	  --	  ADP121-AUJZ30R7CT-ND	     ADP122	  300mA	  3.3V	  3.4-5.5V	  0.085V @ 300mA	  --	  --	  ADP122AUJZ-3.3-R7CT-ND	     ADP1712	  300mA	  3.3V	  3.5-5.5V	  0.17V @ 300mA	  --	  --	  ADP1712AUJZ-3.3-R7TR-ND	     AP7311 (Low Cost)	  150mA	  3.3V	  3.5-6V	  0.15V @ 150mA	  --	  --	  AP7311-33WG-7DICT-ND	     LD39015M18R	  150mA	  1.8V	  1.9V-5.5V	  0.08V @ 100mA	  --	  --	  497-6977-1-ND	     LP2985A-33DBVR	  150mA	  3.3V	  3.3-16V	  0.28V @ 150mA	  206	  150	  296-18479-1-ND	     MCP1824T-3302E/OT	  300mA	  3.3V	  3.5V-6V	  0.2V @ 300mA	  --	  --	  MCP1824T-3302E/OTCT-ND	     MIC5205-2.5YM5 TR	  150mA	  2.5V	  2.7-16V	  0.165V @ 150mA	  --	  --	  576-1257-2-ND	     MIC5205-3.0YM5 TR	  150mA	  3.0V	  3.2V-16V	  0.165V @ 150mA	  --	  --	  576-1258-2-ND	     MIC5205-3.3YM5 TR	  150mA	  3.3V	  3.5V-16V	  0.165V @ 150mA	  --	  --	  576-1259-2-ND	     TPS780330220	  150mA	  3.3V+2.2V	  3.6-5.5V	  250mV Max	  --	  --	  296-23332-1-ND	     TDA3663/N1,135	  100mA	  3.3V	  3.5-45V	  0.18V @ 50mA	  --	  --	  568-5343-1-ND	     	  	  	  	  	  	  	  	     	  	  	  	  	  	  	  	   Max operating temp can be calculated using ?JA, TJ (max junction temperature), and power in watts.  Set the "Maximum Ambient Temperature" until it reaches TJ ("Max Junction Temperature"), which is the absolute limit for safe use of the regulator: Heat Sink Temperature Calculator   For example, With 12V source into a 3.3V LP2985 and a 30mA load, we are dissipating (12V-3.3V) * 0.03A = 0.261W.  With a ?JA of 206 °C/W, a TJ of 150°C, and 261mW we can safely use the chip without a heat sink up to 75°C (=147.1°C Junction Temperature). New Description=
+Change Component Library : Designator=U2 Old Library=microbuilder.IntLib New Library=SparkFun-IC-Power.SCHLIB
+Added Component: Designator=J1(JST-2-SMD)
+Added Component: Designator=SW1(KMR2)
+Added Component: Designator=X2(ESP-12)
+Added Pin To Net: NetName=GND Pin=J1-1
+Added Pin To Net: NetName=VBAT Pin=J1-2
+Added Pin To Net: NetName=GND Pin=SW1-1
+Added Pin To Net: NetName=RESET Pin=SW1-2
+Added Pin To Net: NetName=GND Pin=SW1-3
+Added Pin To Net: NetName=RESET Pin=SW1-4
+Added Pin To Net: NetName=RESET Pin=X2-1
+Added Pin To Net: NetName=ADC Pin=X2-2
+Added Pin To Net: NetName=CH_PD Pin=X2-3
+Added Pin To Net: NetName=GPIO16 Pin=X2-4
+Added Pin To Net: NetName=GPIO14/SCK Pin=X2-5
+Added Pin To Net: NetName=GPIO12/MISO Pin=X2-6
+Added Pin To Net: NetName=GPIO13/MOSI Pin=X2-7
+Added Pin To Net: NetName=3.3V Pin=X2-8
+Added Pin To Net: NetName=GND Pin=X2-9
+Added Pin To Net: NetName=GPIO15 Pin=X2-10
+Added Pin To Net: NetName=GPIO2 Pin=X2-11
+Added Pin To Net: NetName=GPIO0 Pin=X2-12
+Added Pin To Net: NetName=GPIO4/SDA Pin=X2-13
+Added Pin To Net: NetName=GPIO5/SCL Pin=X2-14
+Added Pin To Net: NetName=RXD Pin=X2-15
+Added Pin To Net: NetName=TXD Pin=X2-16
+Added Member To Class: ClassName=Adafruit ESP8266 Feather Member=Component J1 JSTPH
+Added Member To Class: ClassName=Adafruit ESP8266 Feather Member=Component SW1 KMR22
+Added Member To Class: ClassName=Adafruit ESP8266 Feather Member=Component X2 ESP-12
