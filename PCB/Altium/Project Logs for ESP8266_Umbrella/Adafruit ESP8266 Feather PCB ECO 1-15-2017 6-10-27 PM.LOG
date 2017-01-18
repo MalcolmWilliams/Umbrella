@@ -1,4 +1,0 @@
-Change Component DesignItemId : Designator=D4 Old DesignItemId=DIODE-SCHOTTKYSOD-123 New DesignItemId=DIODE-SCHOTTKY-B340A
-Change Component Footprint: Designator=D4 Old Footprint=SOD-123 New Footprint=SMA-DIODE
-Change Room Name: Old Name=RoomDefinition_1 New Name=Adafruit ESP8266 Feather
-Change Room Scope: Old Scope=All New Scope=InComponentClass('Adafruit ESP8266 Feather')

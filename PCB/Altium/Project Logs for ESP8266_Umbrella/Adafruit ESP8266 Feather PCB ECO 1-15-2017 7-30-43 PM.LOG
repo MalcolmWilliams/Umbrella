@@ -1,5 +1,0 @@
-Removed Pin From Net: NetName=3.3V Pin=D8-A
-Removed Pin From Net: NetName=NetD8_C Pin=D8-C
-Change Component DesignItemId : Designator=D8 Old DesignItemId=LED-RED0603 New DesignItemId=LED-0603
-Change Component Library : Designator=D8 Old Library=SparkFun-LED.SCHLIB New Library=Discrete.IntLib
-Change Net Name : Old Net Name=NetD8_C New Net Name=NetD8_-
