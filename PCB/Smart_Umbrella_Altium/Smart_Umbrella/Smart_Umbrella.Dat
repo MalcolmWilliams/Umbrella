@@ -1,0 +1,24 @@
+﻿Field=#~Integer~#~50|Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~Smart_Umbrella.PrjPcb|ReportField=ProjectFullPath~C:\Users\malcolm\Documents\GitHub\Umbrella\PCB\Smart_Umbrella_Altium\Smart_Umbrella\Smart_Umbrella.PrjPcb|ReportField=Title~Bill of Materials For Project [Smart_Umbrella.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~50|ReportField=ReportTime~9:03:50 PM|ReportField=ReportDate~1/18/2017|ReportField=ReportDateTime~1/18/2017 9:03:50 PM|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=COMPANY~Pinion Labs|ReportField=CompanyName~|ReportField=CurrentDate~1/18/2017|ReportField=CurrentTime~9:03:48 PM|ReportField=Date~|ReportField=DocumentFullPathAndName~C:\Users\malcolm\Documents\GitHub\Umbrella\PCB\Smart_Umbrella_Altium\Smart_Umbrella\Smart_Umbrella.SchDoc|ReportField=DocumentName~Smart_Umbrella.SchDoc|ReportField=DocumentNumber~|ReportField=DRAWN~Malcolm|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~1/18/2017|ReportField=Organization~|ReportField=ProjectName~Smart_Umbrella.PrjPcb|ReportField=REV~A|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~Smart_Umbrella.PrjPcb|ReportField=DataSourceFullPath~C:\Users\malcolm\Documents\GitHub\Umbrella\PCB\Smart_Umbrella_Altium\Smart_Umbrella\Smart_Umbrella.PrjPcb
+1|10µF||C1|0805|10UF-0805-10V-10%|1
+2|1µF||C2, C3, C5|C0603|CERAMIC-1UF-25V-10%-X7R(0603)|3
+3|0.1µF||C4|0805|10UF-0805-10V-10%|1
+4|2.2nf||C6|C0603|CERAMIC-2.2NF-50V-10%-X7R(0603)|1
+5|4.7µF||C7, C10|0805|10UF-0805-10V-10%|2
+6|22µF||C8, C9, C11|0805|10UF-0805-10V-10%|3
+7|WS2812B5050||D1, D2, D3|WS2812B|WS2812B5050|3
+8|Red||D4|LED-0603|LED-0603|1
+9|LED||D5, D6, D7|LED_5MM|LED5MM|3
+10|Yellow||D8|LED-0603|SMD-LED-CLEAR-YELLOW(0603)|1
+11|Green||D9|LED-0603|SMD-LED-CLEAR-GREEN(0603)|1
+12|JSTPH||J1|JST-2-SMD|JST_2MM_MALE|1
+13|6.8µH||L1|L0603|INDUCTOR/FERRITE-BEAD-0603|1
+14|Header 10|Header, 10-Pin|P1, P2|HDR1X10|Header 10|2
+15|Header 6|Header, 6-Pin|P3|HDR1X6|Header 6|1
+16|MMBT3904L|Transistor NPNBJT configuration in SOT23 package. MMBT2222 is the common NPN we use. Double check BCE configuration again layout.|Q1, Q2|SOT23-3|TRANSISTOR_NPNSOT23-3|2
+17|Res3|Resistor|R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12, R13, R14, R15, R16, R17|J1-0603|Res3|17
+18|MK-12C02||SW1|SW7-SMD-L6.7X2.7X3.2MM|SMD-TOGGLE-SWITCH-ON-ON(3+4P-6.7X2.7MM)|1
+19|DHT-4235A||SW2|KMR2|SPST_TACT-KMR2|1
+20|XC6204B332MR||U1|SOT-23-5|PMIC-LDO-XC6204B332MR(SOT23-5)|1
+21|ETA1036-50S2F||U2|SOT-23-5|PMIC-ETA1036-50S2F-T(SOT23-5)|1
+22|CN3065||U3|DFN8G-0.5-3X3MM|PMIC-CN3065(DFN8)|1
+23|ESP-12||X1|ESP-12|ESP-12|1

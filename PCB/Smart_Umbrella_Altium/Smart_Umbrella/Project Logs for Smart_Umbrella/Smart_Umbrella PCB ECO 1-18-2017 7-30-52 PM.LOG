@@ -1,0 +1,13 @@
+Change Component DesignItemId : Designator=D9 Old DesignItemId=LED-RED0603 New DesignItemId=SMD-LED-CLEAR-GREEN(0603)
+Change Component DesignItemId : Designator=D8 Old DesignItemId=LED-RED0603 New DesignItemId=SMD-LED-CLEAR-YELLOW(0603)
+Change Component Comment : Designator=D8 Old Comment=Green New Comment=Yellow
+Change Component Comment : Designator=D9 Old Comment=Orange New Comment=Green
+Change Component Library : Designator=D8 Old Library=SparkFun-LED.SCHLIB New Library=Seeed-OPL-Diode.IntLib
+Change Component Library : Designator=D9 Old Library=SparkFun-LED.SCHLIB New Library=Seeed-OPL-Diode.IntLib
+Added Pin To Net: NetName=NetD8_A Pin=D8-+
+Added Pin To Net: NetName=NetD8_C Pin=D8--
+Added Pin To Net: NetName=NetD8_A Pin=D9-+
+Added Pin To Net: NetName=NetD9_C Pin=D9--
+Change Net Name : Old Net Name=NetD8_A New Net Name=NetD8_+
+Change Net Name : Old Net Name=NetD8_C New Net Name=NetD8_-
+Change Net Name : Old Net Name=NetD9_C New Net Name=NetD9_-
