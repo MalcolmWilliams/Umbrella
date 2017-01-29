@@ -15,25 +15,11 @@ The adafruit documentation is available here: https://learn.adafruit.com/adafrui
 Software
 ========
 
-The program will be written in microPython. 
+The program is written in Arduino with the help of platformio. 
+
+Code written in microPython and Lua were also tested, but deemed to be less advantageous.
 
 Uploading Code
 **************
 
-The board first needs to have the microPython bootloader installed. Instructions are located `here <https://learn.adafruit.com/micropython-basics-how-to-load-micropython-on-a-board/esp8266:q>`_
-The following commands can be used to upload the firmware. 
-
-.. code-block::
-
-    esptool.py --port /path/to/ESP8266 erase_flash
-    esptool.py --port /path/to/ESP8266 --baud 460800 write_flash --flash_size=detect 0 firmware.bin
-
-Then code can be ran with the following `guide <https://learn.adafruit.com/micropython-basics-load-files-and-run-code/install-ampy>`_
-
-There are some helpful shortcut scripts:
-
-To test the test.py file:
-``./run.sh``
-
-To upload the test.py file and have it run at boot:
-``./upload.sh``
+The board needd to be put in bootloader mode and then can be uploaded in a similar fashion to other arduino boards. 
