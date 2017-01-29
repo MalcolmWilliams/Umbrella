@@ -22,4 +22,17 @@ Code written in microPython and Lua were also tested, but deemed to be less adva
 Uploading Code
 **************
 
-The board needd to be put in bootloader mode and then can be uploaded in a similar fashion to other arduino boards. 
+The board needs to be put in bootloader mode and then can be uploaded in a similar fashion to other arduino boards.
+To put the board into bootloader mode:
+
+1. Hold down reset button
+2. Reset the board
+
+To upload code, the script ``upload.sh`` can be run. Or the command ``platformio run -t upload`` can be run. 
+
+
+PCB
+===
+
+The design was done in Altium 16. The project is located in ``./PCB/Smart_Umbrella_Altium/Smart_Umbrella/``.
+Several of the board features include: LiPo battery charging, LED's, automatic bootloader mode, battery level sensing and IO breakouts. 

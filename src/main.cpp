@@ -12,7 +12,12 @@ unsigned long end_time; // = micros();
 int nets;
 int LEDpin = 0;
 
-void prinScanResult(int networksFound)
+
+void setBrightness(int val);
+void printScanResult(int networksFound);
+
+
+void printScanResult(int networksFound)
 {
   int val = 0;
   //Serial.println();
@@ -65,7 +70,7 @@ void setup()
 void loop() {
   start_time = micros();
   int nets = WiFi.scanNetworks();
-  prinScanResult(nets);
+  printScanResult(nets);
   end_time = micros();
   Serial.print("Run Time: ");
   Serial.println((end_time - start_time)/1000000.0);
